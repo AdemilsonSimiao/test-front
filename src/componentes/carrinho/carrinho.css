@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #EEE;
+}
+.container{
+    padding-top: 10px;
+    width: 387px;
+    height: 720px;
+    margin: 0 auto;
+}
+.container_sacola{
+    background-color: #EEE; 
+    box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);  
+    width: 360px;
+    padding: 0 14px 0 14px;
+}
+.menu{
+    margin-left: -14px;
+    width: 108%;
+    background-color: #FFF ;
+    height: 32px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu a{
+    color: #CCC;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: NaNpx;
+    line-height: 16px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.link_sacola :visited{
+    color: #FF7800;
+}
+
+.produtos {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #999;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: NaNpx;
+    line-height: 17px;
+}
+
+.rectangle-2 {
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 98%;
+    border-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+}
+
+.produto {
+    margin: 10px ;
+    border: solid 1px #EEE;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ifr ;
+    grid-template-rows: 10vh;
+    grid-template-areas: "i c c"
+                         "i p p";
+}                         
+.cabecalho{
+    color: #212122;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    letter-spacing: NaNpx;
+    line-height: 16px;
+    grid-area: c;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.produtos_imagem{
+    grid-area: i;
+}
+.produtos_preco{
+    color: #212122;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: NaNpx;
+    line-height: 17px;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    grid-area: p;
+}
+.container_caixa{
+    padding-top: 10px;
+    margin-top: 10px;
+    border: solid 1px #CCC;
+    border-radius: 3px;
+    color: #212122;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    letter-spacing: NaNpx;
+    line-height: 17px;
+}
+.produtos_caixa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.frete_caixa{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.desconto_caixa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #FF7800;
+}
+.total_caixa{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-weight: 700;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #FFF;
+    border: none;
+    height: 60px;
+    width: 331px;
+    border-radius: 3px;
+    background-color: #FF6C00;
+    box-shadow: inset 0 -3px 0 0 #D45A00, 0 2px 4px 0 rgba(0,0,0,0.25);
+}

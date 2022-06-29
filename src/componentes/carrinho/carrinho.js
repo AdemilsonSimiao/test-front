@@ -1,10 +1,10 @@
-import { React } from "react";
+import  React  from "react";
 import './carrinho.css';
 import Pagamento from '../pagamentos/pagamentos';
 import Confirmacao from '../confirmacao/confirmacao';
 import Menu from '../menu/menu';
 import ResumoVenda from '../resumoVenda/resumoVenda';
-import { Produto } from '../produto/produto';
+import  Produto  from '../produto/produto';
 
 const Carrinho = () => {
 
